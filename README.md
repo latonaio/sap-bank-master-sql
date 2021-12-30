@@ -14,7 +14,6 @@ https://api.sap.com/api/OP_API_BANK_0002/overview
 sap-bank-master-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
 * sap-bank-master-sql-bank-data.sql（SAP 銀行マスタ - 銀行データ）
-* sap-bank-master-sql-bank-address-data.sql（SAP 銀行マスタ - 銀行住所データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法  
 
