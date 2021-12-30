@@ -10,6 +10,6 @@ CREATE TABLE `sap_bank_master_bank_address_data`
   `Country`                    varchar(3) DEFAULT NULL,
   `Region`                     varchar(3) DEFAULT NULL,
     PRIMARY KEY (`BankInternalID`),
-    CONSTRAINT `SASBankMasterBankAddressData_fk` FOREIGN KEY (`BankInternalID`) REFERENCES `sap_bank_master_bank_data` (`BankInternalID`)
+    CONSTRAINT `SAPBankMasterBankAddressData_fk` FOREIGN KEY (`BankInternalID`) REFERENCES `sap_bank_master_bank_data` (`BankInternalID`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
