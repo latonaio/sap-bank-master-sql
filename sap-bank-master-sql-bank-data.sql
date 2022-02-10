@@ -10,7 +10,7 @@ CREATE TABLE `sap_bank_master_bank_data`
   `ShortCityName`           varchar(35) DEFAULT NULL,
   `SWIFTCode`               varchar(11) DEFAULT NULL,
   `BankNetworkGrouping`     varchar(2) DEFAULT NULL,
-  `IsMarkedForDeletion`     tinyint(1) DEFAULT NULL
+  `IsMarkedForDeletion`     tinyint(1) DEFAULT NULL,
   `BankCategory`            varchar(1) DEFAULT NULL,
     PRIMARY KEY (`BankCountry`, `Bank`)
 ) ENGINE = InnoDB
